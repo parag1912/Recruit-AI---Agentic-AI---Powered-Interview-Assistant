@@ -38,18 +38,6 @@ Designed to be modular and extendable, Recruit-AI supports scalable user interac
 
 ## 🧠 Architecture & Flow Diagram
 
-### 📊 High-Level Architecture
-
-```mermaid
-graph TD
-    A[User] --> B[Clerk Auth Layer]
-    B --> C[React UI / Next.js Pages]
-    C --> D[API Routes (Next.js)]
-    D --> E[Gemini AI API]
-    D --> F[Database via Drizzle ORM]
-    F --> G[Interview History Storage]
-```
-
 ### 🔁 Flow Breakdown
 
 1. **User Authentication**: Handled securely by Clerk.
