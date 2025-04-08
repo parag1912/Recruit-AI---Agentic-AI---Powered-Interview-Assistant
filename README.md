@@ -42,7 +42,7 @@ Designed to be modular and extendable, Recruit-AI supports scalable user interac
 
 ```mermaid
 graph TD
-    A[User] -->|Signup/Login| B[Clerk Auth Layer]
+    A[User] --> B[Clerk Auth Layer]
     B --> C[React UI / Next.js Pages]
     C --> D[API Routes (Next.js)]
     D --> E[Gemini AI API]
